@@ -1,0 +1,36 @@
+/* Navbar Styles */
+.navbar {
+    padding: 1rem 1.5rem;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+  
+  .nav-link {
+    font-size: 1rem;
+  }
+  
+  /* Modal Styles */
+  .modal-content {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .modal-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .modal-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .modal-body .btn {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  
