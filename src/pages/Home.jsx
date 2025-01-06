@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
-import Chat from './Chat'; // Import the Chat component
+import Register from './Register'; // Import the Register component
 
 const Home = () => {
-  const [showChat, setShowChat] = useState(false); // State to toggle chat visibility
+  const [showRegister, setShowRegister] = useState(false); // State to toggle registration form visibility
 
   const handleGetStarted = () => {
-    setShowChat(true); // Show the chatbox when "Get Started" is clicked
+    setShowRegister(true); // Show the registration form when "Get Started" is clicked
   };
 
   return (
     <div>
-      {!showChat ? (
+      {!showRegister ? (
         <>
           {/* Hero Section */}
           <div className="hero-section">
@@ -63,11 +63,10 @@ const Home = () => {
           </div>
         </>
       ) : (
-        <Chat /> // Render the Chat component when the button is clicked
+        <Register /> // Render the Register component when the button is clicked
       )}
     </div>
   );
 };
 
 export default Home;
-
